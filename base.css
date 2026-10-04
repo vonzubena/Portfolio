@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin:0px;
+    padding:0px;
+    font-family: "Rajdhani", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #E8E8F0;
+    background-color: #0A0A0F;
+    
+}
+
+h1,h2,h3 
+{
+    line-height: 1.2;
+    color: #FCEE0A;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+}
+
+a {
+    color: #00F0FF;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FCEE0A
+}
+
+.wrapper
+{
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.site-header
+{
+    background: #0A0A0F;
+    background: linear-gradient(to bottom, #1C1C2B 0%, #0A0A0F 100%);
+    border-bottom: 2px solid #FCEE0A;
+    padding: 15px 0px;
+}
+
+.site-name
+{
+    margin: 0px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.site-name a
+{
+    color: #FCEE0A;
+    text-decoration: none;
+    text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF;
+}
+
+
+/* NAVIGATION */
+
+.main-nav a
+{
+    display: inline-block;
+    padding: 8px 14px;
+    color: #E8E8F0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover
+{
+    color: #00F0FF;
+    background-color: #12121c;
+}
+
+.main-nav .active,
+.main-nav .active:hover
+{
+    color: #0A0A0F;
+    background: #FCEE0A;
+    background: linear-gradient(-45deg, transparent 8px, #FCEE0A 8px);
+}
+
+/* ----- HERO: neon-yellow banner, angled gradient, cut corner ----- */
+
+
+.hero
+{
+    background: #FCEE0A;
+    background: linear-gradient(-45deg, transparent 40px, #E5D600 40px, #FCEE0A 60%);
+    color: #0A0A0F;
+    padding: 50px 0px;
+}
+
+.hero h1
+{
+    margin-top: 0px;
+    font-size: 3rem;
+    color: #0A0A0F;
+}
+
+.eyebrow
+{
+    font-family: "Share Tech Mono", "Courier New", monospace;
+    font-size: 0.9rem;
+}
+
+.hero-tagline
+{
+    font-size: 1.2rem;
+}
+
+/* ----- BUTTONS: cut-corner blocks ----- */
+
+.button
+{
+    display: inline-block;
+    padding: 10px 26px;
+    color: #FCEE0A;
+    background: #0A0A0F;
+    background: linear-gradient(-45deg, transparent 12px, #0A0A0F 12px);
+    text-decoration: none;
+    text-transform: uppercase; /* EXTRA */
+}
+
+.button:hover
+{
+    color: #0A0A0F;
+    background: #FF003C;
+    background: linear-gradient(-45deg, transparent 12px, #FF003C 12px);
+}
+
+/* ----- CARDS: dark boxes with a cut corner ----- */
+
+.card
+{
+    background: #12121C;
+    background: linear-gradient(225deg, transparent 20px, #12121C 20px);
+    border-left: 5px solid #FCEE0A;
+    border-bottom: 1px solid #00F0FF;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+/* ----- FOOTER ----- */
+
+site.footer
+{
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bar
+{
+    height: 12px;
+    margin-bottom: 20px;
+    background: #FCEE0A;
+    background: repeating-linear-gradient(-45deg, #FCEE0A 0px, #FCEE0A 12px, #0A0A0F 12px, #0A0A0F 24px);
+}
