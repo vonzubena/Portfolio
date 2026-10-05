@@ -160,7 +160,7 @@ a:hover
 
 /* ----- FOOTER ----- */
 
-site.footer
+.site-footer
 {
     padding-bottom: 20px;
     margin-top: 20px;
@@ -174,3 +174,5 @@ site.footer
     background: #FCEE0A;
     background: repeating-linear-gradient(-45deg, #FCEE0A 0px, #FCEE0A 12px, #0A0A0F 12px, #0A0A0F 24px);
 }
+
+
