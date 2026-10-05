@@ -12,25 +12,77 @@
 
     <!-- Main stylesheet: colours, fonts and gradients for every screen size -->
     <link href="base.css" rel="stylesheet" type="text/css">
+    <script src="js/video.js" defer></script>
 </head>
 <body>
+
     <header class="site-header">
+
         <div class="wrapper">
+
             <p class="site-name"><a href="index.html">Andrew Von Zuben</a></p>
             <nav class="main-nav">
+
                 <a href="index.html">Home</a>
                 <a class ="active" href="about-me.html">About Me</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact Me</a>
             </nav>
             <div class="clear"></div>
-        </div>
-        
+        </div>        
     </header>
-    <main></main>
+    <main>
+
+        <div class="wrapper">
+
+            <h1 class="page-title">About Me</h1>
+            <article class="about-intro">
+
+                <figure class="profile">
+
+                    <img src="images/profile.jpeg" width="200" height="200" alt="Photo of Andrew">
+                    <figcaption>Andrew Von Zuben</figcaption>
+
+                </figure>
+                <h2>Hello and Welcome!</h2>
+                <p>My name is Andrew Von Zuben, and I am a student at Ontario Tech University pursuing a degree in Information Technology. I have a strong interest in networking, security, and web development. This portfolio showcases my skills, projects, and experiences in these areas.</p>
+                <aside class="quick-facts">
+
+                    <h3>Quick Facts</h3>
+                    <ul>
+
+                        <li>Degree: Information Technology</li>
+                        <li>University: Ontario Tech University</li>
+                        <li>Interests: Networking, Security, Web Development</li>
+                        <li>Email: andrew.vonzuben@ontariotechu.net</li>
+                    </ul>
+                </aside>
+                <div class="clear"></div> 
+            </article>
+
+            <article class="video-section">
+
+                <h2>Video Introduction</h2>
+                <p>Here is a short video</p>
+
+                <!-- Native HTML5 video element with controls -->
+                <video id="video" width="640" height="460" controls
+                    poster="images/video-poster.jpg">
+
+                    <source src="images/intro.mp4" type="video/mp4">
+                    <source src="images/intro.ogv" type="video/ogg">
+
+                </video>
+                <br>
+                <button class="button" onclick="playPause()">Play/Pause</button>
+            </article>              
+        </div>
+    </main>
     <footer class="site-footer">
+
         <div class="footer-bar"></div>
         <div class="wrapper">
+
             <address>Email me at
                 <a href="mailto:andrew.vonzuben@ontariotechu.net">andrew.vonzuben@ontariotechu.net</a>
             </address>

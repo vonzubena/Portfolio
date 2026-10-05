@@ -27,10 +27,81 @@
         </div>
         
     </header>
-    <main></main>
+    <main>
+        <div class="wrapper">
+
+            <h1 class="page-title">Contact Me</h1>
+            <section class="contact-form">
+
+                <h2>Send me a Message</h2>
+                <form action="mailto:andrew.vonzuben@ontariotechu.net" method="post" enctype="text/plain" name="contact">
+
+                    <p>
+
+                        <label for="name">Full Name</label>
+                        <input class="field" type="text" id="name" name="name" placeholder="e.g. Jane Doe" maxlength="50" required>
+
+                    </p>
+                    <p>
+
+                        <label for="email">Email</label>
+                        <input class="field" type="email" id="email" name="email" placeholder="e.g. jane.doe@example.com" maxlength="100" required>
+
+                    </p>
+                    <p>
+
+                        <label for="phone">Cell Number</label>
+                        <input class="field" type="tel" id="phone" name="phone" placeholder="e.g. 416-555-5555">
+                        
+                    </p>
+                    <p>
+
+                        <label for="subject">Reason for Contacting</label>
+                        <select class="field" id="subject" name="subject" required>
+
+                            <option value="">Please Choose One</option>
+                            <option value="job">Job or Internship Opportunity</option>
+                            <option value="project">Project Collaboration</option>
+                            <option value="Question">General Question</option>
+                            <option value="Other">Other</option>
+                        
+                        </select>                        
+                    </p>
+                    <p>
+
+                        <label for="comments">Comments</label>
+                        <textarea class="field" id="comments" name="comments" cols="40" rows="6" placeholder="Write Your Message Here:" maxlength="500" required></textarea>
+
+                    </p>
+                    <p class="form-buttons">
+
+                        <input class="button" type="submit" value="Send message">
+                        <input class="button button-secondary" type="reset" value="Clear form">                        
+
+                    </p>
+                </form>
+            </section>
+
+            <aside class="contact-info">
+
+                <h2>Other Ways to Reach Me</h2>
+                <p>I usually reply within two business days.</p>
+                <address>
+
+                    Email: <a href="mailto:andrew.vonzuben@ontariotechu.net">andrew.vonzuben@ontariotechu,net</a>
+                    <br>
+                    Phone Number: XXX-XXX-XXXX
+
+                </address>
+            </aside>
+            <div class="clear"></div>
+        </div>
+    </main>
     <footer class="site-footer">
+
         <div class="footer-bar"></div>
         <div class="wrapper">
+
             <address>Email me at
                 <a href="mailto:andrew.vonzuben@ontariotechu.net">andrew.vonzuben@ontariotechu.net</a>
             </address>

@@ -176,3 +176,179 @@ a:hover
 }
 
 
+/* Page Titles (About, Projects, Contact) */
+
+.page-title
+{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-size: 2.6rem;
+    border-bottom: 2px solid #FF003C;
+    text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF;
+}
+
+.lead 
+{
+    font-size: 1.1rem;
+}
+
+/* ABOUT PAGE */
+
+.profile
+{
+    margin: 0px 0px 20px 0px;
+    padding: 8px;
+    max-width: 320px;
+    background: #00F0FF;
+    background: linear-gradient(135deg, transparent 22px, #00F0FF 22px);
+}
+
+.profile img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.profile figcaption
+{
+    padding: 8px;
+    font-family: "Share Tech Mono", "Courrier New", monospace;
+    background-color: #0A0A0F;
+    color: #FCEE0A;
+    text-align: center;
+}
+
+.quick-facts
+{
+    background: #12121C;
+    background: linear-gradient(225deg, transparent 20px, #12121C 20px);
+    border-left: 5px solid #FCEE0A;
+    border-bottom: 1px solid #00F0FF;
+    padding: 10px 20px;
+    margin:20px 0px;
+}
+
+.quick-facts h3
+{
+    margin-top: 5px;
+}
+
+/* ----- VIDEO ----- */
+
+video
+{
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    background-color: #000000;
+    border: 2px solid #00F0FF;
+    box-shadow: 0px 0px 18px #00F0FF;
+}
+
+.video-section .button
+{
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*  PROJECTS PAGE */
+
+.project
+{
+    background: #12121C;
+    background: linear-gradient(225deg, transparent 20px #1C1C2B, #0A0A0F 100%);
+    border-left: 5px solid #FCEE0A;
+    border-bottom: 1px solid #00F0FF;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.project h2
+{
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+
+.project-tag
+{
+    margin: 0px;
+    font-family: "Share Tech Mono", "Courier New", monospace;
+    font-size: 0.85rem;
+    color: #FF003C;
+}
+
+/* CONTACT PAGE */
+
+.contact-form
+{
+    background: #12121C;
+    background: linear-gradient(225deg, transparent 20px, #1C1C2B 20px, #0A0A0F 100%);
+    border-left: 5px solid #FCEE0A;
+    border-bottom: 1px solid #00F0FF;
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 4px;
+    font-family: "Share Tech Mono", "Courier New", monospace;
+}
+
+.field
+{
+    width:100%;
+    padding: 10px;
+    font-family: "Share Tech Mono", "Courier New", monospace;
+    font-size: 1rem;
+    color: #E8E8F0;
+    background-color: #0A0A0F;
+    border: 1px solid #00F0FF;
+}
+
+.field:hover
+{
+    border-color: #FCEE0A;
+}
+
+.form-buttons .button
+{
+    margin: 10px 15px 10px 0px;
+    color: #0A0A0F;
+    background: #FCEE0A;
+    background: linear-gradient(-45deg, transparent 12px, #FCEE0A 12px);
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.form-buttons .button:hover
+{
+    color: #0A0A0F;
+    background: #00F0FF;
+    background: linear-gradient(-45deg, transparent 12px, #00F0FF 12px);
+}
+
+.form-buttons .button-secondary
+{
+    background: #E8E8F0;
+    background: linear-gradient(-45deg, transparent 12px, #E8E8F0 12px)
+}
+
+.contact-info
+{
+    background: #12121C;
+    background: linear-gradient(225deg, transparent 20px, #12121C 20px);
+    border-left: 5px solid #FCEE0A;
+    border-bottom: 1px solid #00F0FF;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
