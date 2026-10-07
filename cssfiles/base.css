@@ -65,16 +65,10 @@ a:hover
 {
     margin: 0px;
     font-size: 1.7rem;
-    font-weight: bold;
-}
-
-.site-name a
-{
+    font-weight: bold; /* EXTRA */
     color: #FCEE0A;
-    text-decoration: none;
-    text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF;
+    text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF; /* EXTRA */
 }
-
 
 /* NAVIGATION */
 
