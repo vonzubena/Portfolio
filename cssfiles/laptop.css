@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+/*  laptop.css - LAPTOP / DESKTOP VIEW (1025px and wider) */
+
+.site-name
+{
+    float: left;
+    padding-top: 4px;
+}
+
+.main-nav
+{
+    float: right;
+}
+
+.hero
+{
+    padding: 80px 0px;
+}
+
+.card
+{
+    float: left;
+    width: 31.33%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 250px;
+}
+
+.profile
+{
+    float: left;
+    width: 32%;
+    margin-right: 3%;
+}
+
+.quick-facts
+{
+    overflow: hidden;
+}
+
+.project
+{
+    float: left;
+    width: 31.33%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 300px;
+}
+
+.contact-form
+{
+    float: left;
+    width: 62%;
+}
+
+.contact-info
+{
+    float: right;
+    width: 34%;
+}
+

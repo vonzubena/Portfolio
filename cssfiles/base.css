@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+  /* base.css - shared styles for every screen size
+     Color scheme hexadecimal values: FCEE0A 00F0FF FF003C 0A0A0F 12121C */
+
 * {
     box-sizing: border-box;
 }
@@ -33,7 +37,7 @@ a {
 
 a:hover
 {
-    color: #FCEE0A
+    color: #FCEE0A;
 }
 
 .wrapper
@@ -89,8 +93,7 @@ a:hover
     background-color: #12121c;
 }
 
-.main-nav .active,
-.main-nav .active:hover
+.main-nav .active, .main-nav .active:hover
 {
     color: #0A0A0F;
     background: #FCEE0A;
@@ -197,7 +200,7 @@ a:hover
 .profile
 {
     margin: 0px 0px 20px 0px;
-    padding: 8px;
+    padding: 16px;
     max-width: 320px;
     background: #00F0FF;
     background: linear-gradient(135deg, transparent 22px, #00F0FF 22px);
@@ -254,15 +257,24 @@ video
     font-size: 1rem;
     border: none;
     cursor: pointer;
+    color: #0A0A0F;
+    background: #FCEE0A;
+    background: linear-gradient(-45deg, transparent 12px, #FCEE0A 12px);
 }
 
+.video-section .button:hover
+{
+    color: #0A0A0F;
+    background: #00F0FF;
+    background: linear-gradient(-45deg, transparent 12px, #00F0FF 12px);
+}
 
 /*  PROJECTS PAGE */
 
 .project
 {
     background: #12121C;
-    background: linear-gradient(225deg, transparent 20px #1C1C2B, #0A0A0F 100%);
+    background: linear-gradient(225deg, transparent 20px, #1C1C2B, #0A0A0F 100%);
     border-left: 5px solid #FCEE0A;
     border-bottom: 1px solid #00F0FF;
     padding: 15px 20px;
@@ -278,7 +290,7 @@ video
 .project-tag
 {
     margin: 0px;
-    font-family: "Share Tech Mono", "Courier New", monospace;
+    font-family: "Share Tech Mono", "Courrier New", monospace;
     font-size: 0.85rem;
     color: #FF003C;
 }
@@ -340,7 +352,7 @@ label
 .form-buttons .button-secondary
 {
     background: #E8E8F0;
-    background: linear-gradient(-45deg, transparent 12px, #E8E8F0 12px)
+    background: linear-gradient(-45deg, transparent 12px, #E8E8F0 12px);
 }
 
 .contact-info

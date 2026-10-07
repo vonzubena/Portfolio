@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* mobile.css - PHONE VIEW (600px and narrower). One column. The menu becomes a 2 x 2 block of big buttons */
+
+.wrapper
+{
+    width: 94%;
+}
+
+.site-name
+{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.main-nav
+{
+    margin-top: 10px;
+}
+
+.main-nav a
+{
+    display: block;
+    float: left;
+    width: 48%;
+    margin: 1%;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: #12121C;
+    border-left: 3px solid #00F0FF;
+}
+
+.hero
+{
+    padding: 30px 0px;
+}
+
+.hero h1
+{
+    font-size: 1.8rem;
+}
+
+.card, .project, .contact-form, .contact-info
+{
+    float: none;
+    width: 100%;
+}
+
+.profile
+{
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-buttons .button
+{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.page-title
+{
+    font-size: 2rem;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* tablet.css - TABLET VIEW (601px to 1024px). Medium layout: centred header, 2 columns of boxes */
+
+.site-name
+{
+    text-align: center;
+}
+
+.main-nav
+{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.hero
+{
+    padding: 60px 0px;
+}
+
+.hero h1
+{
+    font-size: 2.4rem;
+}
+
+.card
+{
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 230px;
+}
+
+.profile
+{
+    float: left;
+    width: 40%;
+    margin-right: 4%;
+}
+
+.quick-facts
+{
+    overflow: hidden;
+}
+
+.project
+{
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 300px;
+}
+
+.contact-form, .contact-info
+{
+    float: none;
+    width: 100%;
+}
