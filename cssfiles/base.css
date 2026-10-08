@@ -372,3 +372,36 @@ label
     padding: 10px 20px;
     margin-bottom: 30px;
 }
+
+.skills
+{
+    margin: 30px 0px;
+}
+
+
+/* Remove the list's default left indent */
+.skill-list
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Each skill is a small card. inline-block puts them side by side (it also hides the bullet points) and lets them wrap to new lines */
+.skill-list li
+{
+    display: inline-block;
+    margin: 0px 10px 12px 0px;
+    padding: 6px 16px;
+    font-family: "Share Tech Mono", "Courier New", monospace;
+    color: #FCEE0A;
+    background-color: #12121C;
+    border: 1px solid #00F0FF;
+    border-left: 4px solid #FCEE0A;
+}
+
+/* Card lights up when you point at it */
+.skill-list li:hover
+{
+    color: #0A0A0F;
+    background-color: #FCEE0A;
+}
