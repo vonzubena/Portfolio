@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Settings the browser needs: text characters, phone screen size, page summary and tab title -->
+    <!-- Settings the browser needs: text characters, phone screen size, page summary and tab title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projects page of the personal portfolio of Andrew Von Zuben">
     <title>Projects | Andrew Von Zuben Portfolio</title>
-<!-- Load the two Google Fonts used on the site -->
+    <!-- Load the two Google Fonts used on the site -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&amp;family=Share+Tech+Mono&amp;display=swap" rel="stylesheet">
 
-<!-- Main stylesheet: colours, fonts and gradients for every screen size -->
+    <!-- Main stylesheet: colours, fonts and gradients for every screen size -->
     <link href="cssfiles/base.css" rel="stylesheet" type="text/css">
 
-<!-- Layout stylesheets: the browser uses only one, depending on screen width -->
+    <!-- Layout stylesheets: the browser uses only one, depending on screen width -->
     <link href="cssfiles/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)">
     <link href="cssfiles/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
     <link href="cssfiles/laptop.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 1025px)">
 </head>
 <body>
-<!-- HEADER: my name, and the menu -->
+    <!-- HEADER: my name, and the menu -->
     <header class="site-header">
         <div class="wrapper">
             <div class="site-name">Andrew Von Zuben</div>
-<!-- Menu links. class="active" highlights the page you are on -->
+            <!-- Menu links. class="active" highlights the page you are on -->
             <nav class="main-nav">
                 <a href="index.html">Home</a>
                 <a href="about-me.html">About Me</a>
                 <a class="active" href="projects.html">Projects</a>
                 <a href="contact.html">Contact Me</a>
             </nav>
-<!-- Empty div that stops the floated name and menu from collapsing the header -->
+            <!-- Empty div that stops the floated name and menu from collapsing the header -->
             <div class="clear"></div>
         </div>
         
@@ -40,6 +40,7 @@
         <div class="wrapper">
 
             <h1 class="page-title">Projects</h1>
+            <!-- Each project is an article: a category label, a title and a short description -->
             <p class="lead">Here are some projects I've worked on.</p>
             <div class="project-list">
 
@@ -47,7 +48,9 @@
 
                     <p class="project-tag">// Networking</p>
                     <h2>Small Office Network Design</h2>
-                    <p>Description of the project goes here.</p>
+                    <p>Designed a network for a 25-person office in Cisco Packet Tracer, with separate VLANs for staff, 
+                        management and guests, DHCP, inter-VLAN routing and WPA2 wireless. I documented the topology 
+                        and tested connectivity between segments.</p>
 
                 </article>
 
@@ -55,7 +58,9 @@
 
                     <p class="project-tag">// Programming</p>
                     <h2>Python Project</h2>
-                    <p>Description of the project goes here.</p>
+                    <p>Built a command-line banking app where users create accounts, deposit, withdraw and transfer funds. 
+                        Data is saved to JSON files, and input is validated to prevent overdrafts and invalid amounts.</p>
+
 
                 </article>
 
@@ -63,7 +68,9 @@
 
                     <p class="project-tag">// Security</p>
                     <h2>Linux System Administration</h2>
-                    <p>Description of the project goes here.</p>
+                    <p>Set up a BIND9 DNS server on Ubuntu with forward and reverse lookup zones. I secured it with SSH key 
+                        logins and a UFW firewall, and used dig and nslookup to troubleshoot.</p>
+
 
                 </article>
 
@@ -71,7 +78,9 @@
 
                     <p class="project-tag">// Databases</p>
                     <h2>Database Design Project</h2>
-                    <p>Description of the project goes here.</p>
+                    <p>Designed a MySQL database for a small retail business, from an ER diagram to a normalized schema (3NF) 
+                        with primary and foreign keys. I wrote SQL queries for low-stock alerts, monthly sales and top customers.</p>
+
 
                 </article>
 
@@ -79,16 +88,28 @@
 
                     <p class="project-tag">// Object-Oriented Programming</p>
                     <h2>Python OOP Project</h2>
-                    <p>Description of the project goes here.</p>
-
+                    <p>Developed a Python hospital system using classes, inheritance, encapsulation and polymorphism to model patients, 
+                        doctors and appointments. Users can book and cancel appointments through a menu.</p>
                 </article>
+                    
+                <article class="project">
+                    
+                    <p class="project-tag">// Web Development</p>
+                    <h2>Personal Portfolio Website</h2>
+                    <p>Built this four-page portfolio site with HTML5 and CSS3, using fluid design and media queries for phones, tablets 
+                        and laptops. It includes a validated contact form, an HTML5 video and a cyberpunk theme, and is deployed on 
+                        GitHub Pages.</p>
+                </article>
+
+
+                
                 <div class="clear"></div>      
             </div>
         </div>     
     </main>    
-<!-- FOOTER: contact email and copyright, the same on every page -->
+    <!-- FOOTER: contact email and copyright, the same on every page -->
     <footer class="site-footer">
-<!-- Empty div that CSS turns into the yellow and black stripe bar -->
+        <!-- Empty div that CSS turns into the yellow and black stripe bar -->
         <div class="footer-bar"></div>
         <div class="wrapper">
             
