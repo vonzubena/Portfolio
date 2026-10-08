@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Settings the browser needs: text characters, phone screen size, page summary and tab title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About me page of the personal portfolio of Andrew Von Zuben">
     <title>About Me | Andrew Von Zuben Portfolio</title>
-    <!-- Google Fonts: Rajdhani (headings/body) and Share Tech Mono (labels) -->
+
+    <!-- Load the two Google Fonts used on the site -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&amp;family=Share+Tech+Mono&amp;display=swap" rel="stylesheet">
@@ -13,36 +15,42 @@
     <!-- Main stylesheet: colours, fonts and gradients for every screen size -->
     <link href="cssfiles/base.css" rel="stylesheet" type="text/css">
 
+    <!-- Layout stylesheets: the browser uses only one, depending on screen width -->
     <link href="cssfiles/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)">
     <link href="cssfiles/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
     <link href="cssfiles/laptop.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 1025px)">
 
+    <!-- Load the play/pause script after the page has finished loading -->
     <script src="js/video.js" defer></script>
 </head>
 <body>
-
+    <!-- HEADER: my name, and the menu -->
     <header class="site-header">
 
         <div class="wrapper">
 
-            <div class="site-name">Andrew Von Zuben</div>
+            <div class="site-name"><a href="index.html">Andrew Von Zuben</a></div>
             <nav class="main-nav">
-
+                <!-- Menu links. class="active" highlights the page you are on -->
                 <a href="index.html">Home</a>
                 <a class="active" href="about-me.html">About Me</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact Me</a>
             </nav>
+            <!-- Empty div that stops the floated name and menu from collapsing the header -->
             <div class="clear"></div>
         </div>        
     </header>
+
+    <!-- Main content: this is the part of the page that is mostly unique -->
     <main>
 
         <div class="wrapper">
 
             <h1 class="page-title">About Me</h1>
+            <!-- Photo and introduction -->
             <article class="about-intro">
-
+                <!-- figure groups my photo with its caption -->
                 <figure class="profile">
 
                     <img src="images/profile.jpeg" width="200" height="200" alt="Photo of Andrew">
@@ -51,8 +59,8 @@
                 </figure>
                 <h2>Hello and Welcome!</h2>
                 <p>My name is Andrew Von Zuben, and I am a student at Ontario Tech University pursuing a degree in Information Technology. I have a strong interest in networking, security, and web development. This portfolio showcases my skills, projects, and experiences in these areas.</p>
+                <!-- aside: a side box with quick facts about me -->
                 <aside class="quick-facts">
-
                     <h3>Quick Facts</h3>
                     <ul>
 
@@ -65,6 +73,7 @@
                 <div class="clear"></div> 
             </article>
 
+            <!-- Video introduction: controls show the play bar, poster is the picture shown before playing -->
             <article class="video-section">
 
                 <h2>Video Introduction</h2>
@@ -73,18 +82,20 @@
                 <!-- Native HTML5 video element with controls -->
                 <video id="video" width="640" height="460" controls
                     poster="images/video-poster.jpg">
-
+                    <!-- Two video formats so every browser can play one (MP4 and Ogg/v) -->
                     <source src="images/intro.mp4" type="video/mp4">
                     <source src="images/intro.ogv" type="video/ogg">
 
                 </video>
                 <br>
+                <!-- Button that runs playPause() in video.js -->
                 <button class="button" onclick="playPause()">Play/Pause</button>
             </article>              
         </div>
     </main>
+    <!-- FOOTER: contact email and copyright, the same on every page -->
     <footer class="site-footer">
-
+        <!-- Empty div that CSS turns into the yellow and black stripe bar -->
         <div class="footer-bar"></div>
         <div class="wrapper">
 

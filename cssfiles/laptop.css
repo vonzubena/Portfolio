@@ -3,6 +3,7 @@
 
 /*  laptop.css - LAPTOP / DESKTOP VIEW (1025px and wider) */
 
+/* Name on the left, menu on the right */
 .site-name
 {
     float: left;
@@ -14,11 +15,13 @@
     float: right;
 }
 
+/* taller hero banner on large screens */
 .hero
 {
     padding: 80px 0px;
 }
 
+/* Cards: 3 across. 31.33% x 3 plus 1% gaps on each side = 100%. Min-height makes every box the same height so the rows line up */
 .card
 {
     float: left;
@@ -28,6 +31,7 @@
     min-height: 250px;
 }
 
+/* Photo on the left, text wraps around it on the right */
 .profile
 {
     float: left;
@@ -35,6 +39,7 @@
     margin-right: 3%;
 }
 
+/* Keeps the Quick Facts box beside the photo instead of under it */
 .quick-facts
 {
     overflow: hidden;
@@ -49,6 +54,7 @@
     min-height: 300px;
 }
 
+/* Contact form on the left, info box on the right */
 .contact-form
 {
     float: left;

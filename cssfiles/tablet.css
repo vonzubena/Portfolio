@@ -2,11 +2,13 @@
 
 /* tablet.css - TABLET VIEW (601px to 1024px). Medium layout: centred header, 2 columns of boxes */
 
+/* Name and menu centred, on two lines */
 .site-name
 {
     text-align: center;
 }
 
+/* shorter her banner and smaller heading comparatively */
 .main-nav
 {
     text-align: center;
@@ -23,6 +25,7 @@
     font-size: 2.4rem;
 }
 
+/* Cards and projects: 2 across */
 .card
 {
     float: left;
@@ -32,6 +35,7 @@
     min-height: 230px;
 }
 
+/* smaller photo floated left */
 .profile
 {
     float: left;
@@ -39,11 +43,13 @@
     margin-right: 4%;
 }
 
+/* keeps the quick facts beside the photo */
 .quick-facts
 {
     overflow: hidden;
 }
 
+/* projects= 2 across */
 .project
 {
     float: left;
@@ -53,6 +59,7 @@
     min-height: 300px;
 }
 
+/* Contact form and info box stacked, full width */
 .contact-form, .contact-info
 {
     float: none;

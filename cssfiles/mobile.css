@@ -2,17 +2,20 @@
 
 /* mobile.css - PHONE VIEW (600px and narrower). One column. The menu becomes a 2 x 2 block of big buttons */
 
+/* makes the screen narrower */
 .wrapper
 {
     width: 94%;
 }
 
+/* centerd, even smaller name */
 .site-name
 {
     text-align: center;
     font-size: 1.4rem;
 }
 
+/* Menu becomes a 2 x 2 grid of big buttons that are easy to tap */
 .main-nav
 {
     margin-top: 10px;
@@ -30,6 +33,7 @@
     border-left: 3px solid #00F0FF;
 }
 
+/* shorter banner and smaller heading */
 .hero
 {
     padding: 30px 0px;
@@ -40,12 +44,14 @@
     font-size: 1.8rem;
 }
 
+/* Every box takes the full width, one under the other */
 .card, .project, .contact-form, .contact-info
 {
     float: none;
     width: 100%;
 }
 
+/* photo centered and smaller */
 .profile
 {
     float: none;
@@ -54,6 +60,7 @@
     margin-right: auto;
 }
 
+/* Full-width form buttons are easier to tap with a thumb */
 .form-buttons .button
 {
     display: block;
@@ -61,6 +68,7 @@
     margin: 10px 0px;
 }
 
+/* smaller papge titles so long words can fit */
 .page-title
 {
     font-size: 2rem;

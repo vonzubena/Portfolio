@@ -3,11 +3,13 @@
 
   /* base.css - shared styles for every screen size
      Color scheme hexadecimal values: FCEE0A 00F0FF FF003C 0A0A0F 12121C */
-
+     
+/* Make width include padding and border, so percentage widths add up */
 * {
     box-sizing: border-box;
 }
 
+/* Whole page: dark background, light text, main font */
 body 
 {
     margin:0px;
@@ -20,16 +22,16 @@ body
     
 }
 
+/* All headings: yellow capitals */
 h1,h2,h3 
 {
     line-height: 1.2;
     color: #FCEE0A;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-
 }
 
+/* Links are cyan and turn yellow when you hover them */
 a {
     color: #00F0FF;
     text-decoration: none;
@@ -40,6 +42,7 @@ a:hover
     color: #FCEE0A;
 }
 
+/* Keeps content centred and 90% of the screen width (fluid design) */
 .wrapper
 {
     width: 90%;
@@ -48,11 +51,13 @@ a:hover
     margin-right: auto;
 }
 
+/* Stops floated boxes from overlapping what comes after them */
 .clear
 {
     clear: both;
 }
 
+/* Linear gradient: dark grey at the top fading to black */
 .site-header
 {
     background: #0A0A0F;
@@ -61,6 +66,7 @@ a:hover
     padding: 15px 0px;
 }
 
+/* My name: big, bold, yellow, with red and cyan "glitch" edges */
 .site-name
 {
     margin: 0px;
@@ -72,6 +78,7 @@ a:hover
 
 /* NAVIGATION */
 
+/* Menu links sit side by side in capitals */
 .main-nav a
 {
     display: inline-block;
@@ -81,12 +88,14 @@ a:hover
     text-transform: uppercase;
 }
 
+/* Menu links turn cyan with a dark background when hovered */
 .main-nav a:hover
 {
     color: #00F0FF;
     background-color: #12121c;
 }
 
+/* Current page: yellow tab. The transparent first 8px of the angled gradient makes the corner look cut off */
 .main-nav .active, .main-nav .active:hover
 {
     color: #0A0A0F;
@@ -95,8 +104,6 @@ a:hover
 }
 
 /* ----- HERO: neon-yellow banner, angled gradient, cut corner ----- */
-
-
 .hero
 {
     background: #FCEE0A;
@@ -112,6 +119,7 @@ a:hover
     color: #0A0A0F;
 }
 
+/* Small terminal-style label above my name */
 .eyebrow
 {
     font-family: "Share Tech Mono", "Courier New", monospace;
@@ -123,8 +131,7 @@ a:hover
     font-size: 1.2rem;
 }
 
-/* ----- BUTTONS: cut-corner blocks ----- */
-
+/* Black block with a cut corner; turns red when hovered */
 .button
 {
     display: inline-block;
@@ -143,8 +150,7 @@ a:hover
     background: linear-gradient(-45deg, transparent 12px, #FF003C 12px);
 }
 
-/* ----- CARDS: dark boxes with a cut corner ----- */
-
+/* Cards and Panels: Dark box with a yellow left edge and the top-right corner cut (225deg gradient) */
 .card
 {
     background: #12121C;
@@ -156,7 +162,6 @@ a:hover
 }
 
 /* ----- FOOTER ----- */
-
 .site-footer
 {
     padding-bottom: 20px;
@@ -164,6 +169,7 @@ a:hover
     text-align: center;
 }
 
+/* Repeating gradient that draws the hazard stripes at the bottom of the page */
 .footer-bar
 {
     height: 12px;
@@ -174,7 +180,6 @@ a:hover
 
 
 /* Page Titles (About, Projects, Contact) */
-
 .page-title
 {
     margin-top: 30px;
@@ -184,6 +189,7 @@ a:hover
     text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF;
 }
 
+/* One line intro under page title */
 .lead 
 {
     font-size: 1.1rem;
@@ -191,6 +197,7 @@ a:hover
 
 /* ABOUT PAGE */
 
+/* Cyan frame around my photo with a cut corner (135deg gradient) */
 .profile
 {
     margin: 0px 0px 20px 0px;
@@ -200,6 +207,7 @@ a:hover
     background: linear-gradient(135deg, transparent 22px, #00F0FF 22px);
 }
 
+/* to have photo fill frame */
 .profile img
 {
     display: block;
@@ -207,6 +215,7 @@ a:hover
     height: auto;
 }
 
+/* Black bar under photo for caption */
 .profile figcaption
 {
     padding: 8px;
@@ -216,6 +225,7 @@ a:hover
     text-align: center;
 }
 
+/* quick facts box, designed to be similar to cards/panels */
 .quick-facts
 {
     background: #12121C;
@@ -232,7 +242,7 @@ a:hover
 }
 
 /* ----- VIDEO ----- */
-
+/* Video: cyan border with a glow; shrinks on small screens */
 video
 {
     display: block;
@@ -244,6 +254,7 @@ video
     box-shadow: 0px 0px 18px #00F0FF;
 }
 
+/* yellow button */
 .video-section .button
 {
     margin-top: 20px;
@@ -256,6 +267,7 @@ video
     background: linear-gradient(-45deg, transparent 12px, #FCEE0A 12px);
 }
 
+/* turn cyan when hovered */
 .video-section .button:hover
 {
     color: #0A0A0F;
@@ -263,8 +275,8 @@ video
     background: linear-gradient(-45deg, transparent 12px, #00F0FF 12px);
 }
 
-/*  PROJECTS PAGE */
-
+/* ----- PROJECTS PAGE ----- */
+/* Small red label above each project title */
 .project
 {
     background: #12121C;
@@ -289,8 +301,8 @@ video
     color: #FF003C;
 }
 
-/* CONTACT PAGE */
-
+/* ----- CONTACT PAGE ----- */
+/* Every label sits on its own line above its box */
 .contact-form
 {
     background: #12121C;
@@ -308,6 +320,7 @@ label
     font-family: "Share Tech Mono", "Courier New", monospace;
 }
 
+/* Text boxes, menu and message area: full width, dark, cyan border */
 .field
 {
     width:100%;
@@ -319,6 +332,7 @@ label
     border: 1px solid #00F0FF;
 }
 
+/* Field border turns yellow when you point at it */
 .field:hover
 {
     border-color: #FCEE0A;
