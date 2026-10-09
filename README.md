@@ -95,7 +95,7 @@ bright yellow, cyan and red as accent colours on a near-black background.
 Yellow is the main colour (headings, buttons, borders), cyan is for links and highlights,
 and red is used sparingly for warnings, hovers and the "glitch" effect.
 
-- **Adobe Color link:** [docs/adobe-color.jpeg]
+- **Adobe Color link:** ([Screenshot](docs/adobe-color.jpeg))
 
 | Colour | Hex | Used for |
 |--------|-----|----------|
