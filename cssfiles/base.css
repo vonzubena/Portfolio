@@ -27,8 +27,8 @@ h1,h2,h3
 {
     line-height: 1.2;
     color: #FCEE0A;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: uppercase; /* EXTRA */
+    letter-spacing: 1px; /* EXTRA */
 }
 
 /* Links are cyan and turn yellow when you hover them */
@@ -85,7 +85,7 @@ a:hover
     padding: 8px 14px;
     color: #E8E8F0;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase; /* EXTRA */
 }
 
 /* Menu links turn cyan with a dark background when hovered */
@@ -175,7 +175,7 @@ a:hover
     height: 12px;
     margin-bottom: 20px;
     background: #FCEE0A;
-    background: repeating-linear-gradient(-45deg, #FCEE0A 0px, #FCEE0A 12px, #0A0A0F 12px, #0A0A0F 24px);
+    background: repeating-linear-gradient(-45deg, #FCEE0A 0px, #FCEE0A 12px, #0A0A0F 12px, #0A0A0F 24px); /* EXTRA */
 }
 
 
@@ -186,7 +186,7 @@ a:hover
     padding-bottom: 10px;
     font-size: 2.6rem;
     border-bottom: 2px solid #FF003C;
-    text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF;
+    text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF; /* EXTRA */
 }
 
 /* One line intro under page title */
