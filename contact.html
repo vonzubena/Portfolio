@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Settings the browser needs: text characters, phone screen size, page summary and tab title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact page of the personal portfolio of Andrew Von Zuben">
     <title>Contact | Andrew Von Zuben Portfolio</title>
-    <!-- Google Fonts: Rajdhani (headings/body) and Share Tech Mono (labels) -->
+    <!-- Load the two Google Fonts used on the site -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&amp;family=Share+Tech+Mono&amp;display=swap" rel="stylesheet">
 
     <!-- Main stylesheet: colours, fonts and gradients for every screen size -->
     <link href="cssfiles/base.css" rel="stylesheet" type="text/css">
+
+    <!-- Layout stylesheets: the browser uses only one, depending on screen width -->
     <link href="cssfiles/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)">
     <link href="cssfiles/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 601px) and (max-width: 1024px)">
     <link href="cssfiles/laptop.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 1025px)">
 
 </head>
 <body>
+    <!-- HEADER: my name, and the menu -->
     <header class="site-header">
         <div class="wrapper">
             <div class="site-name">Andrew Von Zuben</div>
+            <!-- Menu links. class="active" highlights the page you are on -->
             <nav class="main-nav">
                 <a href="index.html">Home</a>
                 <a href="about-me.html">About Me</a>
                 <a href="projects.html">Projects</a>
                 <a class="active" href="contact.html">Contact Me</a>
             </nav>
+            <!-- Empty div that stops the floated name and menu from collapsing the header -->
             <div class="clear"></div>
         </div>
         
@@ -38,8 +44,10 @@
             <section class="contact-form">
 
                 <h2>Send me a Message</h2>
+                <!-- The form opens the visitor's email app with their message (mailto) -->
                 <form action="mailto:andrew.vonzuben@ontariotechu.net" method="post" enctype="text/plain" name="contact">
-
+                    <!-- Each label matches its input's id, so clicking the label selects the box -->    
+                    <!-- required = the form won't send until this field is filled in -->
                     <p>
 
                         <label for="name">Full Name</label>
@@ -47,19 +55,19 @@
 
                     </p>
                     <p>
-
+                        <!-- type="email" makes the browser check the address has an @ -->
                         <label for="email">Email</label>
                         <input class="field" type="email" id="email" name="email" placeholder="e.g. jane.doe@example.com" maxlength="100" required>
 
                     </p>
                     <p>
-
+                        <!-- type="tel" shows a number keypad on phones -->
                         <label for="phone">Cell Number</label>
                         <input class="field" type="tel" id="phone" name="phone" placeholder="e.g. 416-555-5555">
                         
                     </p>
                     <p>
-
+                        <!-- Drop-down menu; the empty first option forces the visitor to pick one -->
                         <label for="subject">Reason for Contacting</label>
                         <select class="field" id="subject" name="subject" required>
 
@@ -72,20 +80,20 @@
                         </select>                        
                     </p>
                     <p>
-
+                        <!-- maxlength stops the message going over 500 characters -->
                         <label for="comments">Comments</label>
                         <textarea class="field" id="comments" name="comments" cols="40" rows="6" placeholder="Write Your Message Here:" maxlength="500" required></textarea>
 
                     </p>
                     <p class="form-buttons">
-
+                        <!-- Submit sends the form; Reset clears every field -->
                         <input class="button" type="submit" value="Send message">
                         <input class="button button-secondary" type="reset" value="Clear form">                        
 
                     </p>
                 </form>
             </section>
-
+            <!-- Side box with other ways to reach me -->
             <aside class="contact-info">
 
                 <h2>Other Ways to Reach Me</h2>
@@ -101,8 +109,9 @@
             <div class="clear"></div>
         </div>
     </main>
+    <!-- FOOTER: contact email and copyright, the same on every page -->
     <footer class="site-footer">
-
+        <!-- Empty div that CSS turns into the yellow and black stripe bar -->
         <div class="footer-bar"></div>
         <div class="wrapper">
 
