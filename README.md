@@ -25,6 +25,7 @@ Every page also has the same footer (email link and copyright).
 
 ## Folder Structure
 
+```
 Portfolio/
 ├── index.html
 ├── about-me.html
@@ -32,16 +33,17 @@ Portfolio/
 ├── contact.html
 ├── README.md
 ├── cssfiles/
-    ├── base.css      → shared styles for every screen size
-    ├── mobile.css    → 600px and below
-    ├── tablet.css    → 601px – 1024px
-    └── laptop.css    → 1025px and above
+│    ├── base.css      → shared styles for every screen size
+│    ├── mobile.css    → 600px and below
+│    ├── tablet.css    → 601px – 1024px
+│    └── laptop.css    → 1025px and above
 ├── js/
-    └── video.js      → play/pause button (Week 2 lecture code)
+│    └── video.js      → play/pause button (Week 2 lecture code)
 ├── images/
-    ├── profile.jpeg
-    ├── video-poster.jpg
-    └── intro.mp4
+│    ├── profile.jpeg
+│    ├── video-poster.jpg
+│    └── intro.mp4
+```
 
 ## Fluid and Responsive Design
 
