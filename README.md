@@ -118,18 +118,7 @@ and red is used sparingly for warnings, hovers and the "glitch" effect.
 - Every `<label for>` matches its input's `id`
 - The form uses `action="mailto:..."`, `method="post"` and `enctype="text/plain"`
 
-## Code Not Covered in the Course (10% Rule)
 
-Every line below is marked `/* EXTRA */` in the CSS.
-
-| Code | Where | What it does | Lines |
-|------|-------|--------------|------:|
-| `<meta name="description">` | All 4 HTML pages | Short page summary shown by search engines
-| `text-transform: uppercase` | base.css: headings, nav, buttons | Shows text in capitals without retyping it
-| `letter-spacing` | base.css: headings | Adds space between letters
-| `font-weight: bold` | base.css: site name | Makes the name bold
-| `text-shadow` | base.css: site name, page titles | Red and cyan offset shadows for the "glitch" effect
-| `repeating-linear-gradient` | base.css: footer bar | Draws the hazard stripes
 
 ## Testing
 
@@ -141,6 +130,8 @@ Every line below is marked `/* EXTRA */` in the CSS.
 | Accessibility | WAVE | 0 errors; fixed "possible heading" and "redundant link" alerts by changing the site name to a `<div>` without a link ([screenshot](docs/wave.png)) |
 | Spelling | VS Code spell check | No spelling errors
 
+
+## Code Not Covered in the Course (10% Rule)
 | Code | What it does | Where I got it | Marked with | Lines |
 |------|------|------|--------|------:|
 | `text-transform: uppercase;` | Shows text in capitals (headings, menu, buttons) | Google Search | `/* EXTRA */` | 3 |
