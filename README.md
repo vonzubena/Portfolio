@@ -107,9 +107,6 @@ and red is used sparingly for warnings, hovers and the "glitch" effect.
 
 ## Form Validation (Contact Page)
 
-
-## Form Validation (Contact page)
-
 - `required` on Name, Email, Subject and Message
 - `type="email"` makes the browser check the email format
 - `type="tel"` brings up the number keypad on phones (I left the phone field as optional intentionally)
@@ -117,8 +114,6 @@ and red is used sparingly for warnings, hovers and the "glitch" effect.
 - `<select>` has an empty first option, so a subject must be chosen
 - Every `<label for>` matches its input's `id`
 - The form uses `action="mailto:..."`, `method="post"` and `enctype="text/plain"`
-
-
 
 ## Testing
 
