@@ -140,3 +140,12 @@ Every line below is marked `/* EXTRA */` in the CSS.
 | Link check | W3C Link Checker | No broken links; the mailto link is skipped by the checker, as expected ([screenshot](docs/link-check.png)) |
 | Accessibility | WAVE | 0 errors; fixed "possible heading" and "redundant link" alerts by changing the site name to a `<div>` without a link ([screenshot](docs/wave.png)) |
 | Spelling | VS Code spell check | No spelling errors
+
+| Code | What it does | Where I got it | Marked with | Lines |
+|------|------|------|--------|------:|
+| `text-transform: uppercase;` | Shows text in capitals (headings, menu, buttons) | Google Search | `/* EXTRA */` | 3 |
+| `letter-spacing: 1px;` | Adds space between heading letters | Google Search | `/* EXTRA */` | 1 |
+| `font-weight: bold;` | Makes my name bold | Google Search | `/* EXTRA */` | 1 |
+| `text-shadow: 2px 0px #FF003C, -2px 0px #00F0FF;` | Red and cyan "glitch" effect on my name and page titles | https://www.youtube.com/watch?v=GslwnN4agzo | `/* EXTRA */` | 2 |
+| `repeating-linear-gradient(...)` | Draws the hazard stripes in the footer | Google Search | `/* EXTRA */` | 1 |
+| `<meta name="description">` | Page summary shown by search engines (all 4 pages) | Google Search | `<!-- EXTRA -->` | 4 |
